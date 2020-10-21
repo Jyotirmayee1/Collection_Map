@@ -30,7 +30,6 @@ if(id<ps.id)
 	return 1;
 	return 0;
 		}
-
 	public String toString() {
 		String result=" Person Name: "+name+" Id: "+id;
 		return result;

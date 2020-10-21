@@ -21,7 +21,6 @@ public class Wjp1 {
 				 result.put(inputArr[i] , sum);
 			 }
 			 
-		
 		 }
 		
 		

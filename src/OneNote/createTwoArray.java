@@ -22,6 +22,7 @@ public class createTwoArray {
 		c[len1+i]=a2[i];
 		
 	 }
+ 
  //Create a for loop and print the value of C
  //for(int i=0;i<len3;i++) {
 	//	System.out.print(c[i]+" ");
