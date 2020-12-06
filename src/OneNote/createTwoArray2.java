@@ -27,8 +27,10 @@ public class createTwoArray2 {
 	//	System.out.print(c[i]+" ");
 	
 	//	 Arrays.sort(c);
+ System.out.println("Before Sorting : ");
  int temp;
  for(int i=0;i<c.length;i++) {
+	 System.out.print(c[i]+" ");
    	//compare between two index  
    	for(int j=0;j<c.length-1;j++) {
    		//swap the element if fast element is greater than element of 2nd index
@@ -38,8 +40,8 @@ public class createTwoArray2 {
    			c[j+1]=temp;
    		} 			
    	}
-   
 	    }
+ System.out.println("\nAfter Sorting : ");
    	 for(int i=0;i<c.length;i++) {
    		System.out.print(c[i]+" ");}
 

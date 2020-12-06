@@ -29,7 +29,8 @@ public class MapPerson {
 			if(p1.getId()<p2.getId())
 				return -1;
 			return 1;
-		}};
+		}
+		};
 		Collections.sort(personInfo,com ) ;
 		for(person P:personInfo) {
 			System.out.println(P); 
