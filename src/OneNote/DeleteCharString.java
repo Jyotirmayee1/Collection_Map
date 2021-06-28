@@ -3,9 +3,9 @@ package OneNote;
 class DeleteCharString {
 
 	public static void main(String[] args) {
-		/*String str1=" Hello, How are you?";
+		String str1=" Hello, How are you?";
 		str1=str1.substring(0, str1.length()-4);
-		System.out.println(str1);*/
+		System.out.println("Delete the last 4 charecter from the String : "+str1);
 		
 	    String s="Hello, How are you?";
 	    String rev="";

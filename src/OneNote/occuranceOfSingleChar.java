@@ -5,13 +5,13 @@ public class occuranceOfSingleChar {
 	
 	public static void charcount(String input, char ch) {
 		 //input="Sukhwinder Kaur";
-		 int countk=0;
+		 int count=0;
 		 for(int i=0;i<input.length();i++){
 		 if(input.charAt(i)==ch){
-			 countk++; 
+			 count++; 
 		 }
 		 
-	}System.out.println(countk);
+	}System.out.println(count);
 		 }
  
 	public static void main(String[] args) {

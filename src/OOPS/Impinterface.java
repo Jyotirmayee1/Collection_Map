@@ -1,6 +1,6 @@
 package OOPS;
 
-public class Impinterface implements  InterfaceDemo {
+public class Impinterface implements  InterfaceDemo, InterfaceDemo1 {
  
 
    int c;
